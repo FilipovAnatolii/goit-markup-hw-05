@@ -493,7 +493,6 @@ span {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 16px;
   background: #4d5ae5;
   color: #fff;
   fill: #fff;
@@ -502,6 +501,10 @@ span {
   letter-spacing: 0.04em;
   cursor: pointer;
   border: none;
+}
+
+.footer-btn-icon-sub{
+  margin-left: 16px;
 }
 
 footer {
@@ -748,6 +751,8 @@ footer {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 .modal-check-icon {
   display: inline-block;
